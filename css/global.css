@@ -1,0 +1,51 @@
+.montserrat-czcionka> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /* background-color: #eceaea; */
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f1eeee;
+  min-height: 100vh;
+
+}
+
+.container h1 {
+  font-size: 4rem;
+  margin-bottom: 5vh;
+}
+.container input[type="text"] {
+  padding: 5px;
+}
+
+#todoButton {
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.container ul {
+  margin-top: 3rem;
+}
+
+.container ul li {
+  font-size: 1.5rem;
+  cursor: pointer;
+  list-style-type: none;
+}
